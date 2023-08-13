@@ -3,14 +3,23 @@
     box-sizing: border-box;
 }
 
-.headline-section {
+.headline {
     background-color: #F1F1F1;
     overflow: hidden;
-    justify-content: center;
     align-items: center;
     text-align: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 60px;
+    width: 1110px;
+    margin: 0 auto;
+    position: sticky;
+    top: 0;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 769px) {
@@ -27,8 +36,17 @@
     }
 }
 
+.title {
+    order: 1;
+    background-color: #F1F1F1;
+    cursor: pointer;
+}
+
+
 .menu {
     background-color: #F1F1F1;
+    display: flex;
+    order: 2;
 }
 
 .nav ul {
@@ -57,22 +75,76 @@
 }
 
 .nav li a:hover {
-
+    border-bottom: 1px solid black;
+    color: #990B0B;
 }
 .welcome-section {
 
 }
 
-.slider {
-
+.main-img {
+    height: auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
-.slide {
+.text1 {
+    position: absolute;
+    bottom: 50%;
+    left: 50px;
+    background-color: rgba(0, 0, 0, 0);
+}
 
+.text1 p {
+    background-color: rgba(0, 0, 0, 0);
+    color: #F1F1F1;
+    font-family: 'Avenir Light', sans-serif;
+    font-size: 30px;
+}
+
+.button1 {
+    position: absolute;
+    bottom: 40%;
+    left: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Avenir Light', sans-serif;
+}
+
+.button1:hover {
+    background-color: rgba(0, 0, 0, 0.7);
 }
 
 .description {
+    font-family: 'Avenir Light', sans-serif;
+    height: auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+    margin: 0 auto;
+    width: 1110px;
+}
 
+.description p {
+    font-family: 'Avenir Light', sans-serif;
+    height: auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    color: #000000;
+    margin: 0 auto;
+    width: 1110px;
 }
 
 .footer {
