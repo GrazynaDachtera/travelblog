@@ -100,7 +100,7 @@
 .text1 p {
     background-color: rgba(0, 0, 0, 0);
     color: #F1F1F1;
-    font-family: 'Avenir Light', sans-serif;
+    font-family: 'Bentham', serif;
     font-size: 30px;
 }
 
@@ -114,7 +114,7 @@
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    font-family: 'Avenir Light', sans-serif;
+    font-family: 'Bentham', serif;
 }
 
 .button1:hover {
