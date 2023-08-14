@@ -20,17 +20,18 @@
     display: flex;
     justify-content: space-between;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    z-index: 2;
 }
 
 @media (min-width: 769px) {
-    .headline-section {
+    .headline {
         display: flex;
-        justify-content: center;
     }
 }
 
 @media (max-width: 768px) {
-    .headline-section {
+    .headline {
         display: flex;
         justify-content: center;
     }
@@ -83,37 +84,48 @@
 }
 
 .main-img {
-    height: auto;
-    overflow: hidden;
-    justify-content: center;
     align-items: center;
-    text-align: center;
+    box-sizing: border-box;
+    width: 1110px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    margin: 0 auto;
 }
 
-.button0 {
+.text1 {
     position: absolute;
-    top: 23%;
-    left: 26%;
-    transform: translate(-50%, -50%);
+    top: 18%;
+    left: 4%;
     font-family: 'Cinzel', sans-serif;
-    padding: 20px 25px;
-    font-size: 14px;
+    font-size: 18px;
     color: #000000;
     background-color: #F1F1F1;
-    border: none;
-    border-radius: 0;
-    text-decoration: none;
 }
 
-.button0:hover {
+.text1 p {
+    background-color: #F1F1F1;
+}
 
+.text2 {
+    position: absolute;
+    top: 26%;
+    left: 13%;
+    font-family: 'Marck Script', sans-serif;
+    font-size: 18px;
     color: #990B0B;
+    background-color: #F1F1F1;
+}
+
+.text2 p {
+    background-color: #F1F1F1;
 }
 
 .button1 {
     position: absolute;
-    top: 41%;
-    left: 25%;
+    top: 44%;
+    left: 20%;
     transform: translate(-50%, -50%);
     font-family: 'Cinzel', sans-serif;
     padding: 15px 30px;
@@ -134,8 +146,8 @@
 
 .button2 {
     position: absolute;
-    top: 52%;
-    left: 25%;
+    top: 56%;
+    left: 20%;
     transform: translate(-50%, -50%);
     font-family: 'Cinzel', sans-serif;
     padding: 15px 30px;
@@ -156,8 +168,8 @@
 
 .button3 {
     position: absolute;
-    top: 63%;
-    left: 25%;
+    top: 68%;
+    left: 20%;
     transform: translate(-50%, -50%);
     font-family: 'Cinzel', sans-serif;
     padding: 15px 30px;
