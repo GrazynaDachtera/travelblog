@@ -1,5 +1,5 @@
 * {
-    background-color: #F1F1F1;
+    background-color: #FFFFFF;
     box-sizing: border-box;
 }
 
@@ -94,37 +94,77 @@
     margin: 0 auto;
 }
 
+
+.stadium {
+    z-index: 2;
+    position: absolute;
+    background-color: transparent;
+    width: 600px;
+    height: 451px;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    border-radius: 0 250px 250px 0;
+    max-width: 1110px;
+    transition: transform 0.4s ease-in-out;
+    overflow: hidden;
+    box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.2);
+    transform-origin: left;
+}
+
+.stadium::before {
+    content: '';
+    width: 600px;
+    height: 451px;
+    background-color: #F1F1F1;
+    position: absolute;
+    border-radius: 0 250px 250px 0;
+    transition: transform 0.3s ease-in-out;
+    box-sizing: border-box;
+    max-width: 1110px;
+    box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.stadium:hover {
+    transform: scaleX(1.03);
+    transition: transform 0.4s ease-in-out;
+}
+
 .text1 {
     position: absolute;
-    top: 18%;
-    left: 4%;
+    top: 20%;
+    left: 2%;
     font-family: 'Cinzel', sans-serif;
-    font-size: 18px;
+    font-size: 25px;
     color: #000000;
     background-color: #F1F1F1;
+    z-index: 3;
 }
 
 .text1 p {
     background-color: #F1F1F1;
+    z-index: 3;
 }
 
 .text2 {
     position: absolute;
-    top: 26%;
-    left: 13%;
+    top: 32%;
+    left: 16%;
     font-family: 'Marck Script', sans-serif;
     font-size: 18px;
     color: #990B0B;
     background-color: #F1F1F1;
+    z-index: 3;
 }
 
 .text2 p {
     background-color: #F1F1F1;
+    z-index: 3;
 }
 
 .button1 {
     position: absolute;
-    top: 44%;
+    top: 48%;
     left: 20%;
     transform: translate(-50%, -50%);
     font-family: 'Cinzel', sans-serif;
@@ -137,11 +177,13 @@
     box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.2);
     border-radius: 30px;
     text-decoration: none;
+    z-index: 3;
 }
 
 .button1:hover {
     background-color: rgba(0, 0, 0, 0.7);
     color: #FFFFFF;
+    z-index: 3;
 }
 
 .button2 {
@@ -159,11 +201,13 @@
     box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.2);
     border-radius: 30px;
     text-decoration: none;
+    z-index: 3;
 }
 
 .button2:hover {
     background-color: rgba(0, 0, 0, 0.7);
     color: #FFFFFF;
+    z-index: 3;
 }
 
 .button3 {
@@ -181,11 +225,13 @@
     box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.2);
     border-radius: 30px;
     text-decoration: none;
+    z-index: 3;
 }
 
 .button3:hover {
     background-color: rgba(0, 0, 0, 0.7);
     color: #FFFFFF;
+    z-index: 3;
 }
 
 .description {
