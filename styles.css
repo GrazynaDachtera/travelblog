@@ -100,11 +100,11 @@
     position: absolute;
     background-color: transparent;
     width: 600px;
-    height: 451px;
+    height: 450px;
     top: 0;
     left: 0;
     box-sizing: border-box;
-    border-radius: 0 250px 250px 0;
+    border-radius: 0 35% 35% 0 / 0 240px 240px 0;
     max-width: 1110px;
     transition: transform 0.4s ease-in-out;
     overflow: hidden;
@@ -115,10 +115,10 @@
 .stadium::before {
     content: '';
     width: 600px;
-    height: 451px;
+    height: 450px;
     background-color: #F1F1F1;
     position: absolute;
-    border-radius: 0 250px 250px 0;
+    border-radius: 0 35% 35% 0 / 0 240px 240px 0;
     transition: transform 0.3s ease-in-out;
     box-sizing: border-box;
     max-width: 1110px;
@@ -165,7 +165,7 @@
 .button1 {
     position: absolute;
     top: 48%;
-    left: 20%;
+    left: 22%;
     transform: translate(-50%, -50%);
     font-family: 'Cinzel', sans-serif;
     padding: 15px 30px;
@@ -188,8 +188,8 @@
 
 .button2 {
     position: absolute;
-    top: 56%;
-    left: 20%;
+    top: 61%;
+    left: 22%;
     transform: translate(-50%, -50%);
     font-family: 'Cinzel', sans-serif;
     padding: 15px 30px;
@@ -212,8 +212,8 @@
 
 .button3 {
     position: absolute;
-    top: 68%;
-    left: 20%;
+    top: 74%;
+    left: 22%;
     transform: translate(-50%, -50%);
     font-family: 'Cinzel', sans-serif;
     padding: 15px 30px;
