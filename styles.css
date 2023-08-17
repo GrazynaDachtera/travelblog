@@ -62,7 +62,7 @@
     padding: 8px;
     display: inline-block;
     background-color: #F1F1F1;
-    font-family: 'Univers', sans-serif;
+    font-family: 'Avenir Light', sans-serif;
     font-weight: 100;
 }
 
@@ -72,7 +72,7 @@
     text-decoration: none;
     margin: 15px;
     background-color: #F1F1F1;
-    font-family: 'Univers', sans-serif;
+    font-family: 'Avenir Light', sans-serif;
 }
 
 .nav li a:hover {
@@ -136,9 +136,9 @@
 .text1 {
     position: absolute;
     top: 10%;
-    left: 4%;
-    font-family: 'Univers', sans-serif;
-    font-size: 24px;
+    left: 3%;
+    font-family: 'Anaphora Trial', sans-serif;
+    font-size: 22px;
     color: #000000;
     background-color: #F1F1F1;
     z-index: 3;
@@ -151,9 +151,9 @@
 
 .text2 {
     position: absolute;
-    top: 19%;
-    left: 15%;
-    font-family: 'Univers', sans-serif;
+    top: 18%;
+    left: 14%;
+    font-family: 'Anaphora Trial', sans-serif;
 
 
     font-size: 20px;
@@ -172,7 +172,7 @@
     top: 38%;
     left: 22%;
     transform: translate(-50%, -50%);
-    font-family: 'Univers', sans-serif;
+    font-family: 'Avenir Light', sans-serif;
     padding: 15px 30px;
     font-size: 14px;
     background-color: #FFFFFF;
@@ -199,7 +199,7 @@
     top: 50%;
     left: 22%;
     transform: translate(-50%, -50%);
-    font-family: 'Univers', sans-serif;
+    font-family: 'Avenir Light', sans-serif;
     padding: 15px 30px;
     font-size: 14px;
     border: none;
@@ -225,7 +225,7 @@
     top: 62%;
     left: 22%;
     transform: translate(-50%, -50%);
-    font-family: 'Univers', sans-serif;
+    font-family: 'Avenir Light', sans-serif;
     padding: 15px 30px;
     font-size: 14px;
     background-color: #FFFFFF;
@@ -252,7 +252,7 @@
     top: 74%;
     left: 22%;
     transform: translate(-50%, -50%);
-    font-family: 'Univers', sans-serif;
+    font-family: 'Avenir Light', sans-serif;
     padding: 15px 30px;
     font-size: 14px;
     background-color: #FFFFFF;
@@ -281,6 +281,7 @@
     position: relative;
     box-sizing: border-box;
     display: flex;
+    top:0;
 }
 
 .description {
