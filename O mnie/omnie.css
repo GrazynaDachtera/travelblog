@@ -41,6 +41,7 @@
     order: 1;
     background-color: #F1F1F1;
     cursor: pointer;
+    display: flex;
 }
 
 
@@ -78,4 +79,19 @@
 .nav li a:hover {
     border-bottom: 1px solid #990B0B;
     color: #990B0B;
+}
+
+.mother-div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.img {
+    display: flex;
+    order: 1;
+}
+
+.description {
+    display: flex;
+    order: 2;
 }
