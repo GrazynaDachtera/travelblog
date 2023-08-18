@@ -79,9 +79,6 @@
     border-bottom: 1px solid #990B0B;
     color: #990B0B;
 }
-.welcome-section {
-
-}
 
 .main-img {
     align-items: center;
@@ -172,7 +169,7 @@
     top: 38%;
     left: 22%;
     transform: translate(-50%, -50%);
-    font-family: 'Avenir Light', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 15px 30px;
     font-size: 14px;
     background-color: #FFFFFF;
@@ -192,6 +189,7 @@
     color: #FFFFFF;
     z-index: 3;
     transition: 0.4s ease-in-out;
+    padding: 18px 33px;
 }
 
 .button2 {
@@ -199,7 +197,7 @@
     top: 50%;
     left: 22%;
     transform: translate(-50%, -50%);
-    font-family: 'Avenir Light', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 15px 30px;
     font-size: 14px;
     border: none;
@@ -218,6 +216,7 @@
     color: #FFFFFF;
     z-index: 3;
     transition: 0.4s ease-in-out;
+    padding: 18px 33px;
 }
 
 .button3 {
@@ -225,7 +224,7 @@
     top: 62%;
     left: 22%;
     transform: translate(-50%, -50%);
-    font-family: 'Avenir Light', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 15px 30px;
     font-size: 14px;
     background-color: #FFFFFF;
@@ -245,6 +244,7 @@
     color: #FFFFFF;
     z-index: 3;
     transition: 0.4s ease-in-out;
+    padding: 18px 33px;
 }
 
 .button4 {
@@ -252,7 +252,7 @@
     top: 74%;
     left: 22%;
     transform: translate(-50%, -50%);
-    font-family: 'Avenir Light', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding: 15px 30px;
     font-size: 14px;
     background-color: #FFFFFF;
@@ -272,6 +272,7 @@
     color: #FFFFFF;
     z-index: 3;
     transition: 0.4s ease-in-out;
+    padding: 18px 33px;
 }
 
 .hr-line {
