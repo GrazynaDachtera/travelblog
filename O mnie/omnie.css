@@ -91,7 +91,7 @@
     word-wrap: break-word;
     box-sizing: border-box;
     max-width: 1110px;
-    margin: 10px auto;
+    margin: 0 auto;
     background-color: #F1F1F1;
 }
 
@@ -108,7 +108,7 @@
     justify-content: center;
     display: flex;
     box-sizing: border-box;
-    width: 100%;
+    width: 45%;
     position: relative;
     flex-direction: column;
     align-items: center;
@@ -116,5 +116,10 @@
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 0;
+    background-color: #F1F1F1;
 
+}
+
+.description p {
+    background-color: #F1F1F1;
 }
