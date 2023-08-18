@@ -84,14 +84,23 @@
 .mother-div {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 1110px;
+    position: relative;
 }
 
 .img {
     display: flex;
-    order: 1;
+    order: 2;
+    margin: 20px auto;
+    overflow: hidden;
+    left: 50%;
+
 }
 
 .description {
     display: flex;
-    order: 2;
+    order: 1;
 }
