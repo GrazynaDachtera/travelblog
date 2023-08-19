@@ -312,10 +312,85 @@
     width: 1110px;
 }
 
-.footer {
+.footer-end-copyright {
+    overflow: hidden;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 24px;
+    word-spacing: 1px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.footer-end-title p {
+    overflow: hidden;
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    margin: 0 auto;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 24px;
+    word-spacing: 1px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.footer-end-title {
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    color: #FAF7F7;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 24px;
+    word-spacing: 1px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.footer-end {
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.footer-end * {
+    background-color: #000000;
+    font-family: 'Raleway', sans-serif;
+    position: relative;
+    margin: 0 auto;
+}
+
+.media-icons {
+    background-color: #000000;
+    position: absolute;
+    top: 21px;
+    left: 20px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    list-style-type: none;
 
 }
 
-.contact {
+@media (max-width: 768px) {
 
+    .media-icons {
+        max-width: 20%;
+
+    }
 }
+
+.instagram-icon {
+    margin-left: 10px;
+}
+
