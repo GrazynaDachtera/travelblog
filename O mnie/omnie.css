@@ -126,3 +126,88 @@
 .description p {
     background-color: #F1F1F1;
 }
+
+.footer {
+    font-family: 'Avenir Light', sans-serif;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 110px;
+}
+
+.footer * {
+    background-color: #F1F1F1;
+    font-family: 'Avenir Light', sans-serif;
+    position: relative;
+    margin: 0 auto;
+}
+
+.footer-title {
+    overflow: hidden;
+    justify-content: center;
+    text-align: center;
+    color: #6C6C6C;
+    font-family: 'Avenir Light', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    top: 4px;
+}
+
+.footer-title p {
+    overflow: hidden;
+    color: #6C6C6C;
+    font-family: 'Avenir Light', sans-serif;
+    margin: 0 auto;
+    font-size: 10px;
+    font-weight: 300;
+    word-spacing: 1px;
+    box-sizing: border-box;
+    position: sticky;
+}
+
+.footer-copyright {
+    overflow: hidden;
+    color: #6C6C6C;
+    font-family: 'Avenir Light', sans-serif;
+    margin: 0 auto;
+    font-size: 10px;
+    font-weight: 300;
+    line-height: 24px;
+    word-spacing: 1px;
+    box-sizing: border-box;
+    position: sticky;
+    left: 45%;
+    top: 20px;
+}
+
+.media-icons {
+    background-color: #F1F1F1;
+    position: sticky;
+    top: 80px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-sizing: border-box;
+    list-style-type: none;
+    justify-content: center;
+
+
+}
+
+@media (max-width: 768px) {
+
+    .media-icons {
+        max-width: 20%;
+
+    }
+}
+
+.instagram-icon {
+    margin-left: 10px;
+}
