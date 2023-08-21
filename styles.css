@@ -41,6 +41,7 @@
     background-color: #F1F1F1;
     cursor: pointer;
     display: flex;
+    margin: 0 auto;
 }
 
 
@@ -59,7 +60,7 @@
 
 .nav li {
     list-style: none;
-    padding: 8px;
+    padding: 6px;
     display: inline-block;
     background-color: #F1F1F1;
     font-family: 'Avenir Light', sans-serif;
@@ -73,6 +74,14 @@
     margin: 15px;
     background-color: #F1F1F1;
     font-family: 'Avenir Light', sans-serif;
+}
+
+@media (max-width: 768px) {
+    .nav li a {
+        display: flex;
+        margin: 0 auto;
+        font-size: 10px;
+    }
 }
 
 .nav li a:hover {
