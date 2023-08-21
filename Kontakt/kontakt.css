@@ -88,15 +88,15 @@
     justify-content: center;
     text-align: center;
     text-decoration: none;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     align-items: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 110px;
+    height: 80px;
 }
 
 .footer * {
-    background-color: #D7D7D7;
+    background-color: #F1F1F1;
     font-family: 'Avenir Light', sans-serif;
     position: relative;
     margin: 0 auto;
@@ -110,7 +110,7 @@
     font-family: 'Avenir Light', sans-serif;
     box-sizing: border-box;
     text-decoration: none;
-    top: 4px;
+    top: 8px;
 }
 
 .footer-title p {
@@ -141,9 +141,9 @@
 }
 
 .media-icons {
-    background-color: #D7D7D7;
+    background-color: #F1F1F1;
     position: sticky;
-    top: 80px;
+    top: 48px;
     margin: 0 auto;
     overflow: hidden;
     box-sizing: border-box;
@@ -159,6 +159,10 @@
         max-width: 20%;
 
     }
+}
+
+.instagram-icon {
+    margin-left: 10px;
 }
 
 .instagram-icon {
