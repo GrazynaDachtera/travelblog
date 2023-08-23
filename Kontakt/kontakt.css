@@ -207,16 +207,17 @@
 .contact-text {
     background-color: #F1F1F1;
     font-weight: 600;
+    font-family: 'Anaphora Trial', sans-serif;
 }
 
 .contact-text p {
     background-color: #F1F1F1;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .contact-text-p p {
     background-color: #F1F1F1;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .form-section-2 {
@@ -239,13 +240,13 @@
 label[for="email"] {
     background-color: #F1F1F1;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 label[for="message"] {
     background-color: #F1F1F1;
     font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .contact-image {
@@ -288,7 +289,8 @@ label[for="message"] {
 
 .form-title h3 {
     background-color: #F1F1F1;
-    font-size: 18px;
+    font-size: 16px;
+    font-family: 'Anaphora Trial', sans-serif;
 }
 
 .form-title {
@@ -297,7 +299,7 @@ label[for="message"] {
 
 .label {
     display: flex;
-    margin: 5px;
+    margin: 10px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -316,7 +318,7 @@ textarea {
     padding: 0.5rem;
     border: 1px solid #ccc;
     border-radius: 5px;
-    font-size: 18px;
+    font-size: 14px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -324,13 +326,15 @@ textarea {
 }
 
 .email {
-    height: 40px;
-    width: 100%;
+    height: 35px;
+    width: 94%;
+    margin: 3px auto;
 }
 
 .message {
-    height: 140px;
+    height: 120px;
     width: 100%;
+    margin: 3px auto;
 }
 
 
