@@ -11,7 +11,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 60px;
-    width: 1110px;
     margin: 0 auto;
     position: sticky;
     top: 0;
@@ -79,6 +78,28 @@
 .nav li a:hover {
     border-bottom: 1px solid #990B0B;
     color: #990B0B;
+}
+
+
+.landing-page {
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.landing-page h2 {
+    overflow: hidden;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 25px;
+}
+
+.a-child-div {
+    flex: 1;
+  }
+
+.b-child-div {
+    flex: 1;
 }
 
 .footer {
