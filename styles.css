@@ -5,7 +5,6 @@
 
 .headline {
     background-color: #F1F1F1;
-    overflow: hidden;
     align-items: center;
     text-align: center;
     background-repeat: no-repeat;
@@ -45,7 +44,7 @@
 
 
 .menu {
-    background-color: #F1F1F1;
+    background-color: transparent;
     display: flex;
     order: 2;
 }
@@ -54,12 +53,12 @@
     display: flex;
     margin: 0;
     padding: 0;
-    background-color: #F1F1F1;
+    background-color: transparent;
 }
 
 .nav li {
     list-style: none;
-    padding: 6px;
+    padding: 8px;
     display: inline-block;
     background-color: #F1F1F1;
     font-family: 'Avenir Light', sans-serif;
@@ -74,6 +73,41 @@
     background-color: #F1F1F1;
     font-family: 'Avenir Light', sans-serif;
 }
+
+li.dropdown {
+    position: relative;
+}
+
+li.dropdown:hover .submenu {
+    display: flex;
+    flex-direction: column;
+
+}
+
+li.dropdown .submenu {
+    display: none;
+    position: absolute;
+    top: 100%; /* Position below the parent item */
+    align-items: center;
+    text-align: center;
+    background-color: #F1F1F1;
+    color: #000000;
+    font-size: 14px;
+    text-decoration: none;
+    right: 0;
+    font-family: 'Avenir Light', sans-serif;
+}
+
+.submenu li a {
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Avenir Light', sans-serif;
+    display: inline-block;
+    margin: 2px;
+}
+
+
 
 @media (max-width: 768px) {
     .nav li a {
