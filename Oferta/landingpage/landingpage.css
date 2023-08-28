@@ -1,6 +1,7 @@
 * {
     background-color: #FFFFFF;
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
 .headline {
@@ -112,25 +113,40 @@ li.dropdown .submenu {
     margin: 2px;
 }
 
-.landing-page {
-    flex-direction: row;
-    justify-content: space-between;
-}
 
-.landing-page h2 {
+
+.header {
     overflow: hidden;
     align-items: center;
     text-align: center;
     display: flex;
-    font-size: 22px;
+    font-size: 18px;
+    margin: 0 auto;
+    position: relative;
+
+}
+
+.landing-page {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
 }
 
 .a-child-div {
     flex: 1;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    order: 2;
 }
 
 .b-child-div {
     flex: 1;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    order: 1;
 }
 
 .footer {
