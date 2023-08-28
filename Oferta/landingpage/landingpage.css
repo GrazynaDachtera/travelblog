@@ -1,7 +1,6 @@
 * {
     background-color: #FFFFFF;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 
 .headline {
@@ -123,7 +122,15 @@ li.dropdown .submenu {
     font-size: 18px;
     margin: 0 auto;
     position: relative;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: #F1F1F1;
+    max-width: 1110px;
 
+}
+
+.header p {
+    background-color: #F1F1F1;
 }
 
 .landing-page {
@@ -131,6 +138,10 @@ li.dropdown .submenu {
     justify-content: space-between;
     display: flex;
     position: relative;
+    margin: 0 auto;
+    max-width: 1110px;
+    background-color: #F1F1F1;
+
 }
 
 .a-child-div {
@@ -139,6 +150,8 @@ li.dropdown .submenu {
     text-align: center;
     display: flex;
     order: 2;
+    margin: 0 auto;
+    background-color: #F1F1F1;
 }
 
 .b-child-div {
@@ -147,6 +160,12 @@ li.dropdown .submenu {
     text-align: center;
     display: flex;
     order: 1;
+    margin: 0 auto;
+    background-color: #F1F1F1;
+}
+
+.b-child-div p {
+    background-color: #F1F1F1;
 }
 
 .footer {
