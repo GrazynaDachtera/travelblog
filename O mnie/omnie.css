@@ -5,7 +5,6 @@
 
 .headline {
     background-color: #F1F1F1;
-    overflow: hidden;
     align-items: center;
     text-align: center;
     background-repeat: no-repeat;
@@ -78,6 +77,39 @@
 .nav li a:hover {
     border-bottom: 1px solid #990B0B;
     color: #990B0B;
+}
+
+li.dropdown {
+    position: relative;
+}
+
+li.dropdown:hover .submenu {
+    display: flex;
+    flex-direction: column;
+
+}
+
+li.dropdown .submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    align-items: center;
+    text-align: center;
+    background-color: #F1F1F1;
+    color: #000000;
+    font-size: 14px;
+    text-decoration: none;
+    right: 0;
+    font-family: 'Avenir Light', sans-serif;
+}
+
+.submenu li a {
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Avenir Light', sans-serif;
+    display: inline-block;
+    margin: 2px;
 }
 
 .mother-div {
