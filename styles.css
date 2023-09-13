@@ -138,7 +138,7 @@ li.dropdown .submenu {
     position: absolute;
     background-color: transparent;
     width: 500px;
-    height: 553px;
+    height: 450px;
     top: 0;
     left: 0;
     box-sizing: border-box;
@@ -189,7 +189,7 @@ li.dropdown .submenu {
 
 .text2 {
     position: absolute;
-    top: 18%;
+    top: 20%;
     left: 14%;
     font-family: 'Anaphora Trial', sans-serif;
 
@@ -235,7 +235,7 @@ li.dropdown .submenu {
 
 .button2 {
     position: absolute;
-    top: 50%;
+    top: 52%;
     left: 22%;
     transform: translate(-50%, -50%);
     font-family: 'Montserrat', sans-serif;
@@ -262,7 +262,7 @@ li.dropdown .submenu {
 
 .button3 {
     position: absolute;
-    top: 62%;
+    top: 66%;
     left: 22%;
     transform: translate(-50%, -50%);
     font-family: 'Montserrat', sans-serif;
@@ -290,7 +290,7 @@ li.dropdown .submenu {
 
 .button4 {
     position: absolute;
-    top: 74%;
+    top: 80%;
     left: 22%;
     transform: translate(-50%, -50%);
     font-family: 'Montserrat', sans-serif;
@@ -316,15 +316,7 @@ li.dropdown .submenu {
     padding: 18px 33px;
 }
 
-.hr-line {
-    border: 2px solid #990B0B;
-    max-width: 1110px;
-    align-items: center;
-    position: relative;
-    box-sizing: border-box;
-    display: flex;
-    top:0;
-}
+
 
 .description {
     font-family: 'Avenir Light', sans-serif;
