@@ -18,35 +18,34 @@ ofertaMenuItem.addEventListener('click', function(event) {
     submenu.style.display = (submenu.style.display === 'block') ? 'none' : 'block';
 });
 
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-    emailjs.init("CnIsQ_v4kq7hjoLWW");
 
-    document.getElementById('form-section-1').addEventListener('submit', function(event) {
-    event.preventDefault();
+window.onload = function () {
+    // Load the EmailJS SDK script
+    var script = document.createElement('script');
+    script.src = 'https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js';
+    script.async = true;
+    script.onload = function () {
+        // Initialize EmailJS after the script has loaded
+        var public_key = 'CnIsQ_v4kq7hjoLWW'
+        emailjs.init(public_key);
 
-    // Your service ID
-    var serviceID = 'service_orpvnm6';
+        // Attach the event listener once EmailJS is ready
+        var contactForm = document.getElementById('contact-form-for-email-kuzi')
+        contactForm.addEventListener('submit', function (event) {
+            event.preventDefault();
+            // these IDs from the previous steps
+            var service_id = 'service_orpvnm6'
+            var template_id = 'template_quanneo'
+            emailjs.sendForm(service_id, template_id, this)
+                .then(function () {
+                    console.log('SUCCESS!');
+                    contactForm.reset();
+                }, function (error) {
+                    console.log('FAILED...', error);
+                });
+        });
+    };
 
-    // Your template ID
-    var templateID = 'template_eeviy0j';
-
-    var emailParams = {
-    to_email: document.getElementById('email').value,
-    message: document.getElementById('message').value,
+    // Append the EmailJS SDK script to the document
+    document.head.appendChild(script);
 };
-
-    emailjs.send(serviceID, templateID, emailParams)
-    .then(function(response) {
-    console.log('Email successfully sent!', response);
-})
-    .catch(function(error) {
-    console.error('Error occurred:', error);
-});
-});
-});
-</script>
-
-
-
