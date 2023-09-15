@@ -201,7 +201,7 @@ li.dropdown .submenu {
     background-color: #F1F1F1;
 }
 
-.contact-forms {
+.footer-section-1 {
     display: flex;
     justify-content: space-between;
     font-family: 'Montserrat', sans-serif;
@@ -235,6 +235,17 @@ li.dropdown .submenu {
     flex: 1;
     order: 2;
     top: 16px;
+}
+
+#contact-form-for-email-kuzi {
+    overflow: hidden;
+    display: flex;
+    box-sizing: border-box;
+    position: relative;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #F1F1F1;
 }
 
 .contact-text {
