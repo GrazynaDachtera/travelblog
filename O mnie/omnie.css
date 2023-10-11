@@ -133,8 +133,13 @@ li.dropdown .submenu {
     margin-top: 0;
     margin-right: 20px;
     margin-bottom: 0;
-    border-radius: 600px;
+    border-radius: 500px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
 
+}
+
+.img:hover {
+    transition: 0.4s ease-in-out;
 }
 
 .description {
