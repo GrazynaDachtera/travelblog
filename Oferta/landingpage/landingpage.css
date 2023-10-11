@@ -131,6 +131,7 @@ li.dropdown .submenu {
 
 .header p {
     background-color: #F1F1F1;
+    font-family: 'Anaphora Trial', sans-serif;
 }
 
 .landing-page {
@@ -142,6 +143,18 @@ li.dropdown .submenu {
     max-width: 1110px;
     background-color: #F1F1F1;
 
+}
+
+.landing-page-img {
+    margin: 20px auto;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    display: flex;
+    position: relative;
+    border-radius: 500px;
+    align-items: center;
+    margin-left: 80px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
 .a-child-div {
@@ -160,7 +173,8 @@ li.dropdown .submenu {
     text-align: center;
     display: flex;
     order: 1;
-    margin: 0 auto;
+    margin: 20px auto;
+    margin-right: 60px;
     background-color: #F1F1F1;
 }
 
