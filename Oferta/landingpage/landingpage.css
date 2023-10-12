@@ -112,26 +112,9 @@ li.dropdown .submenu {
     margin: 2px;
 }
 
-
-
-.header {
-    overflow: hidden;
-    align-items: center;
-    text-align: center;
-    display: flex;
-    font-size: 18px;
-    margin: 0 auto;
-    position: relative;
-    box-sizing: border-box;
-    justify-content: center;
-    background-color: #F1F1F1;
-    max-width: 1110px;
-
-}
-
-.header p {
-    background-color: #F1F1F1;
-    font-family: 'Anaphora Trial', sans-serif;
+.oferta {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .landing-page {
@@ -141,8 +124,7 @@ li.dropdown .submenu {
     position: relative;
     margin: 0 auto;
     max-width: 1110px;
-    background-color: #F1F1F1;
-
+    background-color: #FFFFFF;
 }
 
 .landing-page-img {
@@ -164,22 +146,41 @@ li.dropdown .submenu {
     display: flex;
     order: 2;
     margin: 0 auto;
-    background-color: #F1F1F1;
+    background-color: #FFFFFF;
 }
 
 .b-child-div {
     flex: 1;
     align-items: center;
     text-align: center;
-    display: flex;
-    order: 1;
     margin: 20px auto;
     margin-right: 60px;
-    background-color: #F1F1F1;
+    background-color: #FFFFFF;
 }
 
-.b-child-div p {
-    background-color: #F1F1F1;
+.header {
+    align-items: center;
+    text-align: center;
+    display: flex;
+    font-size: 18px;
+    margin: 0 auto;
+    position: relative;
+    box-sizing: border-box;
+    justify-content: center;
+    background-color: #FFFFFF;
+
+}
+
+.header p {
+    background-color: #FFFFFF;
+    font-family: 'Anaphora Trial', sans-serif;
+    font-size: 22px;
+}
+
+.text-description p {
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .footer {
