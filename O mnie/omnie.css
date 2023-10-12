@@ -123,7 +123,7 @@ li.dropdown .submenu {
     box-sizing: border-box;
     max-width: 1110px;
     margin: 0 auto;
-    background-color: #F1F1F1;
+    background-color: #FFFFFF;
 }
 
 .img {
@@ -134,7 +134,7 @@ li.dropdown .submenu {
     margin-right: 20px;
     margin-bottom: 0;
     border-radius: 500px;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
 
 }
 
@@ -155,19 +155,19 @@ li.dropdown .submenu {
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 30px;
-    background-color: #F1F1F1;
+    background-color: #FFFFFF;
 
 }
 
 .description p {
-    background-color: #F1F1F1;
+    background-color: #FFFFFF;
     font-size: 14px;
     font-family: 'Montserrat', sans-serif;
 }
 
 .name {
     font-family: 'Yeseva One', cursive;
-    background-color: #F1F1F1;
+    background-color: #FFFFFF;
     font-size: 25px;
     margin: 0 auto;
     position: relative;
