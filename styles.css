@@ -203,6 +203,30 @@ li.dropdown .submenu {
     margin-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+    .main-img {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .big-img {
+        width: 100%;
+    }
+
+    .main-img-description {
+        display: none;
+    }
+
+    .stadium {
+        display: none;
+    }
+
+    .button1,
+    .button2,
+    .button3,
+    .button4 {
+    }
+}
 
 .stadium {
     z-index: 2;
