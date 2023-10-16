@@ -1,7 +1,6 @@
 * {
     background-color: #FFFFFF;
     box-sizing: border-box;
-    border: 1px solid black;
 }
 
 .headline {
@@ -113,11 +112,20 @@ li.dropdown .submenu {
     margin: 2px;
 }
 
+.info {
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    box-sizing: border-box;
+    max-width: 1110px;
+}
+
 .parent-div1 {
     margin-top: 50px;
     margin-bottom: 50px;
     flex-direction: row-reverse;
     justify-content: space-between;
+    display: flex;
 }
 
 .child-div1 {
@@ -135,7 +143,7 @@ li.dropdown .submenu {
     position: relative;
     border-radius: 500px;
     align-items: center;
-    margin-left: 80px;
+    margin-left: 180px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -151,6 +159,7 @@ li.dropdown .submenu {
     background-color: #FFFFFF;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
+    margin-right: 180px;
 }
 .footer {
     font-family: 'Avenir Light', sans-serif;
