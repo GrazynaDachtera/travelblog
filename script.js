@@ -1,4 +1,8 @@
-// script.js
+function toggleMenu() {
+    const nav = document.getElementById("nav");
+    nav.classList.toggle("active");
+}
+
 window.addEventListener("scroll", () => {
     const headline = document.querySelector(".headline");
     const scrollTop = window.scrollY;
