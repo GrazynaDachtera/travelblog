@@ -76,11 +76,8 @@
     .nav {
         display: none;
         position: relative;
-        top: 120%;
-        left: 0;
-        width: 100%;
+        width: 50%;
         background-color: #F1F1F1;;
-        z-index: 999;
         overflow: visible;
         flex-direction: column;
     }
@@ -90,9 +87,8 @@
     }
 
     .nav li {
-        display: block;
+        display: flex;
         margin: 0 auto;
-        padding: 1px;
         text-align: center;
         border-bottom: 1px solid #ECECEC;
         flex-direction: column;
@@ -104,11 +100,16 @@
 
     .nav li a {
         display: flex;
-        font-size: 12px;
+        font-size: 14px;
+        float: right;
     }
 
     .nav.active {
-        display: flex;
+        display: inline-block;
+        position: absolute;
+        right: 51.5px;
+        top: 25px;
+        float: right;
     }
 
     #bar1, #bar2, #bar3 {
