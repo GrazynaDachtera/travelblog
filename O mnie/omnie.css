@@ -222,6 +222,17 @@ li.dropdown .submenu {
     transition: 0.4s ease-in-out;
 }
 
+@media (max-width: 769px) {
+    .mother-div {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .img {
+        margin-bottom: 15px;
+    }
+}
+
 .description {
     overflow: hidden;
     justify-content: center;
@@ -238,6 +249,18 @@ li.dropdown .submenu {
     background-color: #FFFFFF;
 
 }
+
+@media (max-width:768px) {
+    .description {
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+}
+
+
 
 .description p {
     background-color: #FFFFFF;
