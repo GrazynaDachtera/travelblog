@@ -236,12 +236,11 @@ li.dropdown .submenu {
     .b5 {
         display: flex;
         position: relative;
-        right: 18%;
+        right: 22%;
         margin-top: 90px;
         background-color: #990B0B;
     }
 }
-
 
 .stadium {
     z-index: 2;
