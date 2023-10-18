@@ -229,8 +229,10 @@ li.dropdown .submenu {
     }
 
     .img {
-        margin-bottom: 15px;
+        margin: 0 auto;
         max-width: 100%;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -270,10 +272,10 @@ li.dropdown .submenu {
 }
 
 .name {
-    font-family: 'Yeseva One', cursive;
+    font-family: 'Anaphora Trial', sans-serif;
     background-color: #FFFFFF;
     font-size: 25px;
-    margin: 0 auto;
+    margin-top: 15px;
     position: relative;
 }
 
