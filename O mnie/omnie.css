@@ -230,6 +230,7 @@ li.dropdown .submenu {
 
     .img {
         margin-bottom: 15px;
+        max-width: 100%;
     }
 }
 
