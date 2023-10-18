@@ -222,7 +222,7 @@ li.dropdown .submenu {
     }
 
     .description {
-        display: flex;
+        box-sizing: border-box;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
@@ -466,7 +466,7 @@ li.dropdown .submenu {
     font-size: 15px;
     color: #000000;
     margin: 0 auto;
-    width: 1110px;
+    max-width: 1110px;
 }
 
 .description p {
@@ -479,7 +479,7 @@ li.dropdown .submenu {
     font-size: 15px;
     color: #000000;
     margin: 0 auto;
-    width: 1110px;
+    max-width: 1110px;
 }
 
 .footer {
