@@ -206,6 +206,37 @@ li.dropdown .submenu {
     background-color: #FFFFFF;
 }
 
+@media (max-width: 769px) {
+    .landing-page {
+        flex-direction: column;
+        justify-content: center;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+
+    .landing-page-img {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .a-child-div {
+        flex-direction: column;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+
+    .b-child-div {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 100%;
+    }
+}
+
 .landing-page-img {
     margin: 20px auto;
     flex-direction: row-reverse;
