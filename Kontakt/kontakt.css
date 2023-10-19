@@ -188,15 +188,23 @@ li.dropdown .submenu {
     color: #000000;
     overflow: hidden;
     box-sizing: border-box;
-    position: relative;
     flex-direction: row;
     align-items: center;
     margin: 0 auto;
     max-width: 1110px;
     background-color: #F1F1F1;
     text-align: center;
-    background-repeat: no-repeat;
-    height: 450px;
+}
+
+@media (max-width: 769px) {
+    .footer-section-1 {
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        overflow: visible;
+        align-items: center;
+
+    }
 }
 
 .contact-section-1 {
@@ -247,12 +255,12 @@ li.dropdown .submenu {
     font-family: 'Montserrat', sans-serif;
     color: #000000;
     overflow: hidden;
-    display: flex;
     box-sizing: border-box;
     position: relative;
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
+    display: flex;
     text-align: center;
     flex: 1;
     background-color: #F1F1F1;
