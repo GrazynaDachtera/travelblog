@@ -229,7 +229,8 @@ li.dropdown .submenu {
         justify-content: center;
         align-items: center;
         margin: 0 auto;
-        display: flex;
+        box-sizing: border-box;
+
 
     }
 
@@ -262,23 +263,21 @@ li.dropdown .submenu {
 .landing-page-img {
     margin: 20px auto;
     flex-direction: row-reverse;
-    justify-content: space-between;
-    display: flex;
-    position: relative;
+    justify-content: center;
     border-radius: 500px;
     align-items: center;
-    margin-left: 80px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+
 }
 
 .a-child-div {
     flex: 1;
     align-items: center;
     text-align: center;
-    display: flex;
     order: 2;
     margin: 0 auto;
     background-color: #FFFFFF;
+
 }
 
 .b-child-div {
@@ -399,3 +398,6 @@ li.dropdown .submenu {
 .instagram-icon {
     margin-left: 10px;
 }
+
+
+
