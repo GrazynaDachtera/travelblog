@@ -99,50 +99,51 @@ li.dropdown .submenu {
     margin: 2px;
 }
 
-.info {
-    justify-content: center;
-    margin: 0 auto;
-    align-items: center;
-    box-sizing: border-box;
-    max-width: 1110px;
-}
-
-.parent-div1 {
+.oferta {
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+.landing-page {
     flex-direction: row-reverse;
     justify-content: space-between;
     display: flex;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1110px;
+    background-color: #FFFFFF;
 }
 
-.child-div1 {
+.a-child-div {
     flex: 1;
     align-items: center;
     text-align: center;
-    display: flex;
     order: 2;
     margin: 0 auto;
     background-color: #FFFFFF;
+
 }
 
-.portfolioimg {
-    display: flex;
-    position: relative;
-    border-radius: 500px;
-    align-items: center;
-    margin-left: 180px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
-}
-
-.child-div2 {
+.b-child-div {
     flex: 1;
     align-items: center;
     text-align: center;
-    margin: 0 auto;
+    margin: 20px auto;
+    margin-right: 60px;
     background-color: #FFFFFF;
 }
 
-.child-div2 p {
+.landing-page-img {
+    margin: 20px auto;
+    flex-direction: row-reverse;
+    justify-content: center;
+    border-radius: 500px;
+    align-items: center;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.b-child-div p {
     background-color: #FFFFFF;
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
@@ -324,41 +325,55 @@ li.dropdown .submenu {
     }
 }
 
-@media (max-width: 768px) {
-    .main-img {
-        width: 100%;
+@media (max-width: 769px) {
+
+    .oferta {
+        flex-direction: column;
         justify-content: center;
-    }
-
-    .big-img {
         width: 100%;
+        margin: 0 auto;
+        align-items: center;
+
+    }
+    .landing-page {
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        margin: 0 auto;
     }
 
-    .main-img-description {
-        display: none;
-    }
-
-    .stadium {
-        display: none;
-    }
-
-    .description {
+    .landing-page-img {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px auto;
         box-sizing: border-box;
+        width: 100%;
+
+    }
+
+    .a-child-div {
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
         width: 100%;
     }
 
-    .buttons {
-        display: none;
+    .b-child-div {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 0 auto;
+        width: 100%;
+        box-sizing: border-box;
     }
 
-    .b5 {
-        display: flex;
-        position: relative;
-        right: 22%;
-        margin-top: 90px;
-        background-color: #990B0B;
+    .b-child-div p {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin: 20px auto;
+        width: 100%;
     }
 }
