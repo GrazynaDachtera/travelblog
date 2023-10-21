@@ -22,19 +22,6 @@
     z-index: 2;
 }
 
-@media (min-width: 769px) {
-    .headline {
-        display: flex;
-    }
-}
-
-@media (max-width: 768px) {
-    .headline {
-        display: flex;
-        justify-content: center;
-    }
-}
-
 .title {
     order: 1;
     background-color: #F1F1F1;
@@ -244,4 +231,134 @@ li.dropdown .submenu {
 
 .instagram-icon {
     margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        position: absolute;
+        top: 18px;
+        right: 20px;
+    }
+
+    #menu-bar:before {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100px;
+        justify-content: center;
+        background-color: #F1F1F1;
+    }
+
+    #menu-bar:after {
+        display: inline-block;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #F1F1F1;
+    }
+
+    #menu-bar {
+        display: inline-block;
+        margin-top: 0;
+        justify-content: center;
+        align-items: center;
+        background-color: #F1F1F1;
+    }
+
+    .bar {
+        cursor: pointer;
+    }
+
+    .nav {
+        display: none;
+        position: relative;
+        width: 50%;
+        background-color: #F1F1F1;;
+        overflow: visible;
+        flex-direction: column;
+    }
+
+    .nav ul {
+        flex-direction: column;
+    }
+
+    .nav li {
+        display: flex;
+        margin: 0 auto;
+        text-align: center;
+        border-bottom: 1px solid #ECECEC;
+        flex-direction: column;
+    }
+
+    .nav li:last-child {
+        border-bottom: 1px solid #ECECEC;
+    }
+
+    .nav li a {
+        display: flex;
+        font-size: 14px;
+        float: right;
+    }
+
+    .nav.active {
+        display: inline-block;
+        position: absolute;
+        right: 51.5px;
+        top: 25px;
+        float: right;
+    }
+
+    #bar1, #bar2, #bar3 {
+        background-color: #000000;
+        height: 1px;
+        width: 25px;
+        margin: 6px auto;
+    }
+
+    #menu-wrapper {
+        background-color: #F1F1F1;
+    }
+
+    .bar {
+        background-color: #F1F1F1;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-img {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .big-img {
+        width: 100%;
+    }
+
+    .main-img-description {
+        display: none;
+    }
+
+    .stadium {
+        display: none;
+    }
+
+    .description {
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .buttons {
+        display: none;
+    }
+
+    .b5 {
+        display: flex;
+        position: relative;
+        right: 22%;
+        margin-top: 90px;
+        background-color: #990B0B;
+    }
 }
