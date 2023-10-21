@@ -3,6 +3,10 @@
     box-sizing: border-box;
 }
 
+.title a {
+    height: 60px;
+}
+
 .headline {
     background-color: #F1F1F1;
     align-items: center;
