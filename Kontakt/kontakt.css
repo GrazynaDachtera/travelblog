@@ -1,6 +1,7 @@
 * {
     background-color: #FFFFFF;
     box-sizing: border-box;
+    border: 1px solid black;
 }
 
 .headline {
@@ -196,17 +197,6 @@ li.dropdown .submenu {
     text-align: center;
 }
 
-@media (max-width: 769px) {
-    .footer-section-1 {
-        justify-content: center;
-        flex-direction: column;
-        width: 100%;
-        overflow: visible;
-        align-items: center;
-
-    }
-}
-
 .contact-section-1 {
     font-family: 'Montserrat', sans-serif;
     color: #000000;
@@ -244,11 +234,13 @@ li.dropdown .submenu {
 .contact-text p {
     background-color: #F1F1F1;
     font-size: 16px;
+    text-decoration: none;
 }
 
 .contact-text-p p {
     background-color: #F1F1F1;
     font-size: 16px;
+    text-decoration: none;
 }
 
 .form-section-2 {
@@ -488,5 +480,16 @@ button[type="submit"]:hover {
 
     .bar {
         background-color: #F1F1F1;
+    }
+}
+
+@media (max-width: 769px) {
+    .footer-section-1 {
+        justify-content: center;
+        flex-direction: column;
+        width: 100%;
+        overflow: visible;
+        align-items: center;
+
     }
 }
