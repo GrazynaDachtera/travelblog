@@ -327,32 +327,8 @@ li.dropdown .submenu {
     padding: 18px 33px;
 }
 
-
-
-.description {
-    font-family: 'Avenir Light', sans-serif;
-    height: auto;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 15px;
-    color: #000000;
-    margin: 0 auto;
-    max-width: 1110px;
-}
-
-.description p {
-    font-family: 'Avenir Light', sans-serif;
-    height: auto;
-    overflow: hidden;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    font-size: 15px;
-    color: #000000;
-    margin: 0 auto;
-    max-width: 1110px;
+.buttons-section {
+    display: none;
 }
 
 .footer {
@@ -432,7 +408,6 @@ li.dropdown .submenu {
 
     .media-icons {
         max-width: 20%;
-
     }
 }
 
@@ -536,10 +511,12 @@ li.dropdown .submenu {
         width: 100%;
         height: auto;
         justify-content: center;
+        display: flex;
     }
 
     .big-img {
         width: 100%;
+        display: flex;
     }
 
     .main-img-description {
@@ -548,14 +525,6 @@ li.dropdown .submenu {
 
     .stadium {
         display: none;
-    }
-
-    .description {
-        box-sizing: border-box;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        width: 100%;
     }
 
     .buttons {
@@ -568,5 +537,46 @@ li.dropdown .submenu {
         right: 65%;
         margin-top: 75px;
         background-color: #990B0B;
+    }
+}
+    @media (max-width: 768px) {
+        .body-buttons {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-sizing: border-box;
+        }
+        .buttons-section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+        }
+        .buttons-section a {
+            font-family: 'Montserrat', sans-serif;
+            padding: 15px 30px;
+            font-size: 14px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border: none;
+            cursor: pointer;
+            box-shadow: 3px 1px 3px rgba(0, 0, 0, 0.2);
+            border-radius: 30px;
+            text-decoration: none;
+            color: #FFFFFF;
+            transition: 0.4s ease-in-out;
+            margin-bottom: 10px;
+        }
+
+        .buttons-section a:hover {
+            background-color: #990B0B;
+            color: #FFFFFF;
+            transition: 0.4s ease-in-out;
+            padding: 18px 33px;
+        }
     }
 }
