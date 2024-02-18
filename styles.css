@@ -534,6 +534,7 @@ li.dropdown .submenu {
 @media (max-width: 768px) {
     .main-img {
         width: 100%;
+        height: auto;
         justify-content: center;
     }
 
@@ -564,8 +565,8 @@ li.dropdown .submenu {
     .b5 {
         display: flex;
         position: relative;
-        right: 22%;
-        margin-top: 90px;
+        right: 65%;
+        margin-top: 75px;
         background-color: #990B0B;
     }
 }
